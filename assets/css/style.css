@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:ital,wght@1,700&display=swap');
 
+/*Set margins, padding and borders to 0*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Lora, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/*Heading and Logo*/
+
+h1,
+h2 {
+    font-family: Merriweather, sans-serif;
+    color: #252525
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+
 }
