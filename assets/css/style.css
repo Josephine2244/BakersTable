@@ -64,3 +64,23 @@ h2 {
     background-size: cover;
     overflow: hidden;
 }
+
+/* Media Queries for screen max width of 345px */
+@media screen and (max-width: 345px) {
+
+    #logo {
+        text-align: center;
+    }
+
+    #nav-bar a {
+        font-size: 80%;
+    }
+}
+
+/* Media Queries for screen max width of 750px */
+@media screen and (max-width: 750px) {
+
+    #logo, #nav-bar a {
+        width: 100%;
+    }
+}
