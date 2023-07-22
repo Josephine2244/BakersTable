@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:ital,wght@1,700&display=swap');
 
-/*Set margins, padding and borders to 0*/
+/* Set margins, padding and borders to 0 */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     color: #3a3a3a;
 }
 
-/*Heading and Logo*/
+/* Headings and Logo */
 
 h1,
 h2 {
@@ -48,9 +48,19 @@ h2 {
 }
 
 #nav-bar a:hover {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .current {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero-image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
