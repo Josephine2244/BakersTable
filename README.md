@@ -1,39 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <h1 align="center">The Bakers Table</h1>
 
-Welcome,
+The Bakers Table is a wesbite for a local café that offers freshly baked breads, pastries and cakes to enjoy either in store or takeaway. The USP is that the cater to many different dietary requirements including gluten/lactose-free, vegetarian and vegan. The website provides the visitor with the full menus for all products available in store.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+View Live Project Here
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+- [User Stories](user-stories)
+- [Features](features)
+- [Future features](future-features)
+- [Typography and Color Scheme](typography-and-color-scheme)
+- [Wireframes](wireframes)
+- [Technology](technology)
+- [Testing](testing)
+- [Deployment](deployment)
+- [Credits](credits)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+## User stories
+# First Time Visitor Goals
+1. As a First Time Visitor, I want to understand the purpose of the website and be able to easily navigate through the content.
+2. As a First Time Visitor, I want to learn more about the business.
+3. As a First Time Visitor, I want to easily navigate the menus of the available products.
+4. As a First Time Visitor, I want to easily find the opening times and location of the business.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Returning Visitor Goals
+1. As a Returning Visitor, I want to easily find the menus.
+2. As a Returning Visitor, I want to easily navigate the contact page.
+3. As a Returning Visitor, I want to easily find the social media links to follow the business.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Features
 
-`http_server`
+## Future features
+1. Pre-Order Service for customers to have their orders ready to go for them when they arrive.
+2. Updates for charity events being held in the café.
+3. Announcements for new items being added to the menu with special recognition if the item was recommended by a customer through the 'Contact Us' form.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Typography and color scheme
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Wireframes
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Home Page Wireframes
+![Home](https://github.com/Josephine2244/BakersTable/assets/137813807/17354ea0-f36b-48a3-b4b3-aafe65916ac0)
 
-To log into the Heroku toolbelt CLI:
+### Menu Page Wireframes
+![Menu](https://github.com/Josephine2244/BakersTable/assets/137813807/c10d4007-ac34-4d9a-b9ee-c602ec3209f6)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Contact Us Page Wireframes
+![Contact us](https://github.com/Josephine2244/BakersTable/assets/137813807/3674c92e-f8c9-4aa0-827d-4ded89762bf3)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Thank You Page Wireframes
+![Thank You](https://github.com/Josephine2244/BakersTable/assets/137813807/482aae85-2091-4a39-8a07-b65df31ddf71)
 
----
 
-Happy coding!
+## Technology
+## Testing
+   ### Code Validation
+   ### Test Cases (user story based with screenshots)
+   ### Fixed Bugs
+   ### Supported Screens and Browsers
+   
+## Deployment
+   ### via gitpod
+   ### via github pages
+   
+## Credits
