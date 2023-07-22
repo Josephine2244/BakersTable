@@ -26,3 +26,31 @@ h2 {
     font-size: 300%;
 
 }
+
+#logo,
+#nav-bar {
+    line-height: 75px;
+}
+
+#nav-bar {
+    font-size: 150%;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar a:hover {
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.current {
+    border-bottom: 2px solid #3a3a3a;
+}
