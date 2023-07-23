@@ -102,19 +102,17 @@ h2 {
     }
 
     #image-text {
-        font-size: 120%;
         line-height: 50px;
     }
 
-    #image-text a {
-        font-size: 120%;
-    }
+    #image-text a {}
 }
 
 /* Media Queries for screen max width of 750px */
 @media screen and (max-width: 750px) {
 
-    #logo, #nav-bar a {
+    #logo,
+    #nav-bar a {
         width: 100%;
     }
 
@@ -128,7 +126,7 @@ h2 {
 
 /* Media Queries for screen max width 1025px */
 @media screen and (max-width: 1025px) {
-#image-text {
-    right: 0%;
-}
+    #image-text {
+        right: 0%;
+    }
 }
