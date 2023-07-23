@@ -65,6 +65,31 @@ h2 {
     overflow: hidden;
 }
 
+/* Text on hero image */
+
+#image-text {
+    font-size: 175%;
+    font-family: Merriweather, sans-serif;
+    text-align: center;
+    line-height: 100px;
+
+    max-width: 600px;
+    height: 200px;
+    padding: 50px;
+
+    background-color: rgba(197, 157, 110, .8);
+
+    bottom: 40%;
+    right: 35%;
+    position: absolute;
+}
+
+#image-text a {
+    color: #3a3a3a;
+    font-size: 125%;
+    vertical-align: bottom;
+}
+
 /* Media Queries for screen max width of 345px */
 @media screen and (max-width: 345px) {
 
@@ -73,7 +98,16 @@ h2 {
     }
 
     #nav-bar a {
-        font-size: 80%;
+        font-size: 70%;
+    }
+
+    #image-text {
+        font-size: 120%;
+        line-height: 50px;
+    }
+
+    #image-text a {
+        font-size: 120%;
     }
 }
 
@@ -83,4 +117,18 @@ h2 {
     #logo, #nav-bar a {
         width: 100%;
     }
+
+    #image-text {
+        height: 350px;
+        line-height: 50px;
+        bottom: 20%;
+        padding: 25px;
+    }
+}
+
+/* Media Queries for screen max width 1025px */
+@media screen and (max-width: 1025px) {
+#image-text {
+    right: 0%;
+}
 }
