@@ -183,6 +183,71 @@ h2 {
 
 /* Opening Times */
 
+.times-location h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.times-location-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
+}
+
+.times {
+    font-size: 120%;
+    line-height: 30px;
+    align-content: space-between;
+}
+
+.times h3 {
+    font-size: 120%;
+    text-align: center;
+}
+
+.table td {
+    font-size: 120%;
+    line-height: 20px;
+    text-align: center;
+    border-style: 1px solid dotted rgba(44, 52, 43);
+}
+
+.find-us h3 {
+    text-align: center;
+    font-size: 150%;
+    padding-top: 30px;
+}
+
+.find-us p {
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background-color: rgba(44, 52, 43);
+    color: rgba(197, 157, 110);
+}
+
+#socials {
+    text-align: center;
+}
+
+#socials>li,
+h3 {
+    display: inline;
+}
+
+#socials i {
+    font-size: 175%;
+    color: rgba(197, 157, 110);
+    margin: 30px;
+
+}
 
 /* Media Queries for screen max width of 345px */
 @media screen and (max-width: 345px) {
