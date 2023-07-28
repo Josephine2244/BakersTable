@@ -245,6 +245,53 @@ footer {
     margin: 30px;
 }
 
+/* Menu Page */
+
+#menu {
+    text-align: center;
+    font-size: 175%;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#bakery-menu {
+    background-image: url(../images/menu-page-image.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu-type {
+    background-color: rgba(197, 157, 110, .9);
+    border-radius: 15px;
+    width: 30%;
+    height: 300px;
+    border: 1px solid #252525;
+    margin: 20px;
+}
+
+.items,
+.prices {
+    font-size: 120%;
+    font-weight: 500;
+    list-style-type: none;
+    margin-left: 70px;
+    float: left;
+}
+
+.menu-type h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* Media Queries for screen max width of 355px */
 @media screen and (max-width: 355px) {
 
