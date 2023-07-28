@@ -235,10 +235,10 @@ footer {
 
 #socials {
     text-align: center;
+    padding-top: 10px;
 }
 
-#socials>li,
-h3 {
+#socials>li {
     display: inline;
 }
 
@@ -246,11 +246,10 @@ h3 {
     font-size: 175%;
     color: rgba(197, 157, 110);
     margin: 30px;
-
 }
 
-/* Media Queries for screen max width of 345px */
-@media screen and (max-width: 345px) {
+/* Media Queries for screen max width of 355px */
+@media screen and (max-width: 355px) {
 
     #logo {
         text-align: center;
@@ -271,10 +270,20 @@ h3 {
     .container .card .content {
         top: -300px;
     }
+
+    footer {
+        height: 200px;
+        width: 100%;
+    }
+
+    #socials i {
+        margin-top: 20px;
+        padding: 0;
+    }
 }
 
-/* Media Queries for screen max width of 750px */
-@media screen and (max-width: 750px) {
+/* Media Queries for screen max width of 983px */
+@media screen and (max-width: 983px) {
 
     #logo,
     #nav-bar a {
@@ -301,5 +310,23 @@ h3 {
 @media screen and (max-width: 1025px) {
     #image-text {
         right: 0%;
+    }
+
+    div.container {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+}
+
+/* Media Queries for screen min width 1026px */
+@media screen and (min-width: 1026px) {
+    #responsive-cards {
+        width: 100%;
+    }
+
+    div.container {
+        padding-top: 30px;
+        padding-left: 0;
     }
 }
