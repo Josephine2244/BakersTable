@@ -183,46 +183,43 @@ h2 {
 
 /* Opening Times */
 
-.times-location h2 {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 200%;
-}
-
-.times-location-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 100px;
-    width: 100%;
-}
-
 .times {
-    font-size: 120%;
-    line-height: 30px;
-    align-content: space-between;
+    width: 50%;
+    text-align: center;
 }
 
 .times h3 {
-    font-size: 120%;
-    text-align: center;
+    font-size: 200%;
+    margin-bottom: 20px;
 }
 
-.table td {
-    font-size: 120%;
-    line-height: 20px;
+.times ol {
+    font-size: 150%;
+    list-style-type: none;
+}
+
+.times-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.find-us {
     text-align: center;
-    border-style: 1px solid dotted rgba(44, 52, 43);
+    margin-right: 20%;
 }
 
 .find-us h3 {
-    text-align: center;
-    font-size: 150%;
-    padding-top: 30px;
+    font-size: 200%;
 }
 
 .find-us p {
-    font-weight: bold;
+    font-size: 150%;
+}
+
+.map {
+    margin-top: 50px;
 }
 
 /* Footer */
