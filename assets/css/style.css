@@ -301,6 +301,16 @@ footer {
     .container .card .content {
         top: -300px;
     }
+
+    .times {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .find-us {
+        text-align: left;
+        clear: both;
+    }
 }
 
 /* Media Queries for screen max width 1025px */
