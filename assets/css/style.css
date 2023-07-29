@@ -34,6 +34,7 @@ h2 {
 
 #nav-bar {
     font-size: 150%;
+    padding-bottom: 100px;
 }
 
 #nav-bar li {
@@ -250,9 +251,17 @@ footer {
 #menu {
     text-align: center;
     font-size: 175%;
+    font-weight: 800;
     clear: both;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#bakery-menu,
+#menu {
+    background-image: url(../images/menu-page-image.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
 }
 
 #bakery-menu {
@@ -290,6 +299,27 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+
+/* Contact Page */
+
+#contact-title h1 {
+    font-size: 200%;
+    text-align: center;
+    margin-top: 100px;
+    clear: both;
+}
+
+#contact-title p {
+    font-size: 120%;
+    text-align: center;
+    margin: 75px;
+    border: 1px double rgba(44, 52, 43);
+}
+
+#form-section {
+    background: url(../images/contact-image.jpg) no-repeat center center / cover;
+    height: 900px;
 }
 
 /* Media Queries for screen max width of 355px */
