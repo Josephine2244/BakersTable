@@ -253,15 +253,8 @@ footer {
     font-size: 175%;
     font-weight: 800;
     clear: both;
-    margin-top: 100px;
-}
-
-#bakery-menu,
-#menu {
-    background-image: url(../images/menu-page-image.jpg);
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
+    background-color: rgba(197, 157, 110);
+    margin-top: 50px;
 }
 
 #bakery-menu {
@@ -320,7 +313,60 @@ footer {
 #form-section {
     background: url(../images/contact-image.jpg) no-repeat center center / cover;
     height: 900px;
+    position: relative;
 }
+
+.form {
+    background-color: rgba(212, 212, 224, .6);
+    width: 400px;
+    height: 600px;
+
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.details {
+    color: rgba(44, 52, 43);
+    width: 60%;
+    margin: 20px;
+    height: 40px;
+}
+
+.details:hover {
+    background-color: rgba(44, 52, 43, .2);
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    font-weight: 800;
+    font-size: 120%;
+    padding-left: 10px;
+    width: 40%;
+}
+
+.consent-button {
+    font-size: 90%;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.submit {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(44, 52, 43);
+    color: white;
+    margin-top: 50px;
+}
+
+
 
 /* Media Queries for screen max width of 355px */
 @media screen and (max-width: 355px) {
