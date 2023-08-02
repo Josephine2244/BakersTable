@@ -34,7 +34,6 @@ h2 {
 
 #nav-bar {
     font-size: 150%;
-    padding-bottom: 100px;
 }
 
 #nav-bar li {
@@ -220,7 +219,14 @@ h2 {
 }
 
 .map {
-    margin-top: 50px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#map h3 {
+    font-size: 200%;
+    margin-top: 30px;
+    padding-left: 30px;
 }
 
 /* Footer */
@@ -288,6 +294,11 @@ footer {
     float: left;
 }
 
+.items ul,
+.prices ul {
+    list-style-type: none;
+}
+
 .menu-type h2 {
     text-align: center;
     margin-top: 20px;
@@ -296,7 +307,7 @@ footer {
 
 /* Contact Page */
 
-#contact-title h1 {
+#contact-title h2 {
     font-size: 200%;
     text-align: center;
     margin-top: 50px;
@@ -318,6 +329,14 @@ footer {
     height: 900px;
     width: 100%;
     position: relative;
+}
+
+#form-section h2 {
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #3a3a3a;
+
 }
 
 .form {
@@ -452,6 +471,26 @@ label {
     #thankyou-text {
         height: 350px;
         bottom: 5%;
+    }
+
+    .form {
+        height: 900px;
+        top: 0;
+    }
+
+    .details {
+        width: 90%;
+    }
+}
+
+/* Media Queries for screen max width of 450px */
+@media screen and (max-width: 450px) {
+    .form {
+        width: 100%;
+    }
+
+    label {
+        font-size: 100%;
     }
 }
 
