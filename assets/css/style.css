@@ -313,7 +313,8 @@ footer {
 }
 
 #form-section {
-    background: url(../images/contact-image.jpg) no-repeat center center / cover;
+    background: url(../images/contact-image.jpg) no-repeat center center;
+    background-size: cover;
     height: 900px;
     width: 100%;
     position: relative;
@@ -379,6 +380,35 @@ label {
 
 /* Thank You Page */
 
+#thankyou-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/thankyou-image.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#thankyou-text {
+    font-size: 150%;
+    text-align: center;
+    line-height: 60px;
+
+    max-width: 600px;
+    height: 200px;
+    padding: 50px;
+
+    background-color: rgba(212, 212, 224, .8);
+    border-radius: 15px;
+    bottom: 40%;
+    left: 20%;
+    position: absolute;
+}
+
+#thankyou-text a {
+    color: #3a3a3a;
+    font-size: 125%;
+}
+
 /* Media Queries for screen max width of 355px */
 @media screen and (max-width: 355px) {
 
@@ -410,6 +440,18 @@ label {
     #socials i {
         margin-top: 20px;
         padding: 0;
+    }
+
+    #thankyou-text {
+        font-size: 120%;
+    }
+}
+
+/* Media Queries for screen max width of 390px */
+@media screen and (max-width: 390px) {
+    #thankyou-text {
+        height: 350px;
+        bottom: 5%;
     }
 }
 
@@ -451,6 +493,10 @@ label {
     }
 
     .form {
+        left: 0;
+    }
+
+    #thankyou-text {
         left: 0;
     }
 }
