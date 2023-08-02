@@ -299,29 +299,33 @@ footer {
 #contact-title h1 {
     font-size: 200%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 10px;
     clear: both;
 }
 
 #contact-title p {
     font-size: 120%;
     text-align: center;
-    margin: 75px;
-    border: 1px double rgba(44, 52, 43);
+    margin: auto;
+    padding-bottom: 10px;
+    max-width: 50%;
 }
 
 #form-section {
     background: url(../images/contact-image.jpg) no-repeat center center / cover;
     height: 900px;
+    width: 100%;
     position: relative;
 }
 
 .form {
-    background-color: rgba(212, 212, 224, .6);
-    width: 400px;
-    height: 600px;
+    background-color: rgba(212, 212, 224, .8);
+    width: 450px;
+    height: 700px;
 
     position: absolute;
+    border-radius: 15px;
     left: 50px;
     top: 50px;
 }
@@ -348,9 +352,15 @@ label {
     width: 40%;
 }
 
+.query {
+    height: 150px;
+    width: 80%;
+    margin: 20px;
+}
+
 .consent-button {
     font-size: 90%;
-    margin-bottom: 50px;
+    text-align: center;
 }
 
 .button {
@@ -364,9 +374,10 @@ label {
     background-color: rgba(44, 52, 43);
     color: white;
     margin-top: 50px;
+    margin-left: 40%;
 }
 
-
+/* Thank You Page */
 
 /* Media Queries for screen max width of 355px */
 @media screen and (max-width: 355px) {
@@ -433,6 +444,14 @@ label {
     .find-us {
         text-align: left;
         clear: both;
+    }
+
+    #form-section {
+        background-size: cover;
+    }
+
+    .form {
+        left: 0;
     }
 }
 
