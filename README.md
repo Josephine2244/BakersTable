@@ -144,12 +144,32 @@ I based my color scheme off of a color palette I found on icolorpalette.com. I s
 
 The warning is due to the imported Google Fonts.
 
+## Lighthouse Results
+
+### index.html
+![lighthouse index html](https://github.com/Josephine2244/BakersTable/assets/137813807/b05fea68-ca0b-42f6-90f6-5cdef9b81a0b)
+
+### menu.html
+![lighthouse menu html](https://github.com/Josephine2244/BakersTable/assets/137813807/1c79bdca-5fc4-4ed7-bc96-960883139a53)
+
+### contact.html
+![lighthouse contact html](https://github.com/Josephine2244/BakersTable/assets/137813807/baffaf1a-fecc-4422-8cce-9907a4d4fa46)
+
+### thankyou.html
+![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
+
    ### Test Cases (user story based with screenshots)
    ### Fixed Bugs
    ### Supported Screens and Browsers
+   - 
+   - Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
    
 ## Deployment
    ### via gitpod
    ### via github pages
+   1. Go to setting in the Github repository
+   2. Find 'Pages' in the list on the left side of the page
+   3. Select 'Main Branch' as the source
+   4. 
    
 ## Credits
