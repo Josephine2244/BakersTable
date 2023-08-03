@@ -24,16 +24,12 @@ h2 {
 #logo {
     float: left;
     font-size: 300%;
-
-}
-
-#logo,
-#nav-bar {
-    line-height: 75px;
+    padding-top: 30px;
 }
 
 #nav-bar {
     font-size: 150%;
+    padding-top: 50px;
 }
 
 #nav-bar li {
@@ -51,7 +47,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.current {
+#nav-bar .current {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -286,13 +282,20 @@ footer {
     margin: 20px;
 }
 
-.items,
+.items {
+    font-size: 120%;
+    font-weight: 500;
+    list-style-type: none;
+    margin-left: 20px;
+    float: left;
+}
+
 .prices {
     font-size: 120%;
     font-weight: 500;
     list-style-type: none;
-    margin-left: 70px;
-    float: left;
+    margin-right: 20px;
+    float: right;
 }
 
 .items ul,
@@ -321,7 +324,7 @@ footer {
     text-align: center;
     margin: auto;
     padding-bottom: 10px;
-    max-width: 50%;
+    width: 50%;
 }
 
 #form-section {
@@ -442,6 +445,7 @@ label {
 
     #image-text {
         line-height: 50px;
+        top: 40%;
     }
 
     #responsive-cards div {
@@ -493,6 +497,27 @@ label {
     label {
         font-size: 100%;
     }
+
+    .menu-type {
+        min-width: fit-content;
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .items {
+        font-size: 100%;
+        margin-left: 0;
+    }
+
+    .prices {
+        font-size: 100%;
+        margin-right: 0;
+    }
+
+    #bakery-menu {
+        justify-content: unset;
+    }
 }
 
 /* Media Queries for screen max width of 983px */
@@ -508,6 +533,10 @@ label {
         line-height: 50px;
         bottom: 20%;
         padding: 25px;
+    }
+
+    #responsive-cards h2 {
+        margin-left: 10%;
     }
 
     #responsive-cards div {
@@ -526,6 +555,10 @@ label {
     .find-us {
         text-align: left;
         clear: both;
+    }
+
+    #contact-title p {
+        width: 80%;
     }
 
     #form-section {
@@ -551,7 +584,13 @@ label {
         padding-top: 30px;
         padding-left: 0;
     }
+}
 
+/* Media Queries for screen max width 1025px */
+@media screen and (max-width: 1080px) {
+    .menu-type {
+        width: 75%;
+    }
 }
 
 /* Media Queries for screen min width 1026px */
