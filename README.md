@@ -20,13 +20,13 @@ The Bakers Table is a wesbite for a local café that offers freshly baked breads
 
 
 ## User stories
-# First Time Visitor Goals
+### First Time Visitor Goals
 1. As a First Time Visitor, I want to understand the purpose of the website and be able to easily navigate through the content.
 2. As a First Time Visitor, I want to learn more about the business.
 3. As a First Time Visitor, I want to easily navigate the menus of the available products.
 4. As a First Time Visitor, I want to easily find the opening times and location of the business.
 
-# Returning Visitor Goals
+### Returning Visitor Goals
 1. As a Returning Visitor, I want to easily find the menus.
 2. As a Returning Visitor, I want to easily navigate the contact page.
 3. As a Returning Visitor, I want to easily find the social media links to follow the business.
@@ -158,18 +158,46 @@ The warning is due to the imported Google Fonts.
 ### thankyou.html
 ![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
 
-   ### Test Cases (user story based with screenshots)
-   ### Fixed Bugs
-   ### Supported Screens and Browsers
-   - 
-   - Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
+## Test Cases (user story based with screenshots)
+
+## Fixed Bugs
+
+## Supported Screens and Browsers
+
+### Supported Screens
+
+
+### Browsers
+- Google Chrome Version 115.0.5790.171 (Official Build) (64-bit)
+- Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
    
 ## Deployment
-   ### via gitpod
-   ### via github pages
-   1. Go to setting in the Github repository
-   2. Find 'Pages' in the list on the left side of the page
-   3. Select 'Main Branch' as the source
-   4. 
+### via gitpod
+
+### via github pages
+1. Go to setting in the Github repository
+2. Find 'Pages' in the list on the left side of the page
+3. Under the section 'Source', choose 'Deploy from Branch'
+4. Under 'Branch', choose 'Main' and then save
+5. The link to the website will appear at the top of this page once it is ready. It may take a couple of minutes
    
 ## Credits
+
+### Code
+- The Navigation Bar and footer are based on the Love Running - Essential Project
+- The Responsive Card Hover is based on code by Tuan on CodePen [View Original Code here](https://codepen.io/keubibo/pen/yLXYVOK)
+- The Google Maps link is from instructions on the Google Support page [here](https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop)
+
+### Media
+- Fonts are imported from [Google Fonts](https://fonts.google.com/)
+- Icons are from [Font Awesome](https://fontawesome.com/icons/)
+- Colors are form [icolorpalette](https://icolorpalette.com/download/palette/458009_icolorpalette.png)
+- Images are from multiple sources
+  - Hero Image is from [Unsplash](https://unsplash.com/photos/N4gtuEZ5gWc)
+  - Bread Image is from [here](https://w7.pngwing.com/pngs/304/749/png-transparent-loaf-bread-toast-sliced-bread-cartoon-illustration-cartoon-bread-cartoon-character-food-cartoon-arms-thumbnail.png)
+  - Leaf Image is from [here](https://cdn.xxl.thumbs.canstockphoto.com/green-leaf-ecology-nature-vector-icon-green-leaf-ecology-nature-element-vector-icon-image_csp67128172.jpg)
+  - Coffee Image is from [here](https://png.pngtree.com/element_pic/00/16/08/1457afffbf03318.jpg)
+  - Menu Image is from [Unsplash](https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1602&q=80)
+  - Contact Us Image is from [Unsplash](https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80)
+  - Thank You Image is from [Unsplash](https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
+  
