@@ -1,5 +1,7 @@
 # <h1 align="center">The Bakers Table</h1>
 
+![Responsive Image](https://github.com/Josephine2244/BakersTable/assets/137813807/b389a26e-c077-4938-80e8-9847d2c1b1cc)
+
 The Bakers Table is a wesbite for a local café that offers freshly baked breads, pastries and cakes to enjoy either in store or takeaway. The USP is that the cater to many different dietary requirements including gluten/lactose-free, vegetarian and vegan. The website provides the visitor with the full menus for all products available in store.
 
 [View Live Project Here](https://josephine2244.github.io/BakersTable/index.html)
@@ -121,11 +123,27 @@ I based my color scheme off of a color palette I found on icolorpalette.com. I s
    ### Code Validation
 [HTML Validator Used](https://validator.w3.org/)
 
-   
+- index.html results
+![index html](https://github.com/Josephine2244/BakersTable/assets/137813807/6512e03c-735f-444a-a8e1-d829f0205851)
+
+- menu.html results
+![menu html](https://github.com/Josephine2244/BakersTable/assets/137813807/6c162282-7d9c-4278-96b3-9046ae2bf6e3)
+
+- contact.html results
+![contact html](https://github.com/Josephine2244/BakersTable/assets/137813807/a765fa11-2946-4521-98df-f887b04be013)
+
+- thankyou.html
+![thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/595845c3-f664-4228-a5c1-90e5a4015a6b)
+
 
 [CSS Validator Used](https://validator.w3.org/)
 
-   
+- style.css results
+![style css 1](https://github.com/Josephine2244/BakersTable/assets/137813807/317385cf-6591-4191-98e8-ac87e3ed4637)
+![style css 2](https://github.com/Josephine2244/BakersTable/assets/137813807/6208e064-96af-4bee-8ee3-66211645cef8)
+
+The warning is due to the imported Google Fonts.
+
    ### Test Cases (user story based with screenshots)
    ### Fixed Bugs
    ### Supported Screens and Browsers
