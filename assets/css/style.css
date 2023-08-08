@@ -69,14 +69,14 @@ h2 {
     text-align: center;
     line-height: 100px;
 
-    max-width: 600px;
-    height: 200px;
+    width: 40%;
+    height: 250px;
     padding: 50px;
 
     background-color: #c59d6ecc;
 
-    bottom: 40%;
-    right: 32%;
+    top: 20%;
+    right: 25%;
     position: absolute;
 }
 
@@ -91,34 +91,35 @@ h2 {
 #company-info h2 {
     font-size: 300%;
     text-align: center;
-    padding-top: 30px;
+    padding: 30px 0 30px;
 }
 
 #company-info {
     background-color: #c59d6ecc;
-    display: inline-block;
+}
+
+#company-info div {
     vertical-align: bottom;
+    overflow: hidden;
 }
 
 .wrapper {
-    max-width: 100%;
-    height: 700px;
+    width: 100%;
+    height: 600px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap:wrap;
-    gap: 5%;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .card {
     position: relative;
-    width: 25%;
+    max-width: 30%;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap:wrap;
-    gap: 15px;
+    flex-wrap: wrap;
 
     background-color: #2c342b;
     border-radius: 15px;
@@ -126,10 +127,12 @@ h2 {
 
 .card img {
     width: 80%;
-    height: 100%;
+    height: 90%;
+    overflow: hidden;
 }
 
-.card h3, .card p {
+.card h3,
+.card p {
     visibility: hidden;
 }
 
@@ -159,7 +162,7 @@ h2 {
 
 .times {
     width: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .times h3 {
@@ -181,7 +184,6 @@ h2 {
 
 .find-us {
     text-align: center;
-    margin-right: 20%;
 }
 
 .find-us h3 {
@@ -199,22 +201,23 @@ h2 {
 
 #map h3 {
     font-size: 200%;
-    margin-top: 30px;
-    padding-left: 30px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: rgba(44, 52, 43);
     color: rgba(197, 157, 110);
+    padding-top: 30px;
+    bottom: 0;
 }
 
 #footer,
 #socials {
     text-align: center;
-    padding-top: 10px;
 }
 
 #socials>li {
@@ -224,7 +227,8 @@ footer {
 #socials i {
     font-size: 175%;
     color: rgba(197, 157, 110);
-    margin: 30px;
+    margin: 5px;
+    padding-top: 10px;
 }
 
 /* Menu Page */
@@ -410,9 +414,8 @@ label {
     font-size: 125%;
 }
 
-/* Media Queries for screen max width of 355px */
-@media screen and (max-width: 355px) {
-
+/* Media Queries for screen max width of 390px */
+@media screen and (max-width: 390px) {
     #logo {
         text-align: center;
     }
@@ -421,37 +424,15 @@ label {
         font-size: 70%;
     }
 
-    #image-text {
-        line-height: 50px;
-        top: 40%;
-    }
-
-    footer {
-        height: 200px;
-        width: 100%;
-        bottom: 0;
-        position: fixed;
-    }
-
-    #socials i {
-        margin-top: 20px;
-        padding: 0;
-    }
-
-    #thankyou-text {
-        font-size: 120%;
-    }
-}
-
-/* Media Queries for screen max width of 390px */
-@media screen and (max-width: 390px) {
     #thankyou-text {
         height: 350px;
         bottom: 5%;
+        font-size: 120%;
     }
 
     .form {
         height: 900px;
+        max-width: 389px;
         top: 0;
     }
 
@@ -462,6 +443,18 @@ label {
 
 /* Media Queries for screen max width of 450px */
 @media screen and (max-width: 450px) {
+    #image-text {
+        font-size: 150%;
+        height: 300px;
+        bottom: 10%;
+        right: 0;
+        left: 10%;
+    }
+
+    .wrapper {
+        width: 100% !important;
+    }
+
     .form {
         width: 100%;
     }
@@ -501,19 +494,13 @@ label {
     }
 
     #image-text {
-        height: 100px;
         line-height: 50px;
-        margin-top: 20%;
+        top: 30%;
     }
 
     .times {
         margin-bottom: 50px;
         text-align: left;
-    }
-
-    .find-us {
-        text-align: left;
-        clear: both;
     }
 
     #contact-title p {
@@ -535,23 +522,21 @@ label {
 
 /* Media Queries for screen max width 1025px */
 @media screen and (max-width: 1025px) {
-    #image-text {
-        right: 15%;
-        top: 25%;
-    }
-
-
-/* Media Queries for screen max width 1025px */
-@media screen and (max-width: 1080px) {
     .menu-type {
         width: 75%;
     }
-}
 
-/* Media Queries for screen min width 1200px */
-@media screen and (min-width: 1200px) {
     .wrapper {
-        width: 65%;
-        margin: 0 auto;
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        min-width: 270px;
     }
 }
