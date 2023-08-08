@@ -47,7 +47,7 @@ The Main page has an eye-catching hero-image that helps the user understand quic
 ### 3. About the Company
 The 'Why Choose Us' section of the page explains the company's three main USPs. I have added an interactive element to encourage users to interact with this section and draw their attention to the content. As the user hovers over the images, the information will appear explaining the significance.
 
-![About The Company](https://github.com/Josephine2244/BakersTable/assets/137813807/cf5b0c37-731f-4307-9778-cf56e432d387)
+![About The Company](https://github.com/Josephine2244/BakersTable/assets/137813807/4e931fe4-7623-4f48-93bc-68453ef4f3bb)
 
 ### 4. Times and Location Section
 The last section on the first page has the opening times, address, and an interactive google map for users to locate the bakery. This map can be made larger and also has a link for users to get directions to the bakery from whereever they are.
@@ -159,6 +159,7 @@ The warning is due to the imported Google Fonts.
 ![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
 
 ## Test Cases (user story based with screenshots)
+![Test Cases](https://github.com/Josephine2244/BakersTable/assets/137813807/ff40d15c-e1f8-4521-9045-d7ddca5ed4b4)
 
 ## Fixed Bugs
 
@@ -172,7 +173,7 @@ The warning is due to the imported Google Fonts.
 - Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
    
 ## Deployment
-### via gitpod
+### via codeanywhere
 
 ### via github pages
 1. Go to setting in the Github repository
