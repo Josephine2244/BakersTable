@@ -162,7 +162,10 @@ The warning is due to the imported Google Fonts.
 ![Test Cases](https://github.com/Josephine2244/BakersTable/assets/137813807/ff40d15c-e1f8-4521-9045-d7ddca5ed4b4)
 
 ## Fixed Bugs
-
+- 'Why Choose Us' section on the homepage was overflowing off the right side of the page.
+- Footer was not at the bottom of the page on the 'Thank You page' or 'Contact Us' page.
+- On smaller screen sizes, the contact form was slightly overflowing the page due to width.
+  
 ## Supported Screens and Browsers
 
 ### Supported Screens
@@ -171,9 +174,17 @@ The warning is due to the imported Google Fonts.
 ### Browsers
 - Google Chrome Version 115.0.5790.171 (Official Build) (64-bit)
 - Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
+
+- Chrome Development Tools was used to chekc the resposiveness of all elements throughout the design process.
    
 ## Deployment
 ### via codeanywhere
+1. Log into Codeanywhere.
+2. Go to workspace that was created for the project using link copied from Github.
+3. Open workspace and go to terminal at bottom of page.
+4. Type 'python3 -m http.server' to open a preview of browser.
+5. A box will pop up in the bottom right corner of the screen when you can click to open the browser.
+6. This will open in a new tab.
 
 ### via github pages
 1. Go to setting in the Github repository
@@ -186,7 +197,7 @@ The warning is due to the imported Google Fonts.
 
 ### Code
 - The Navigation Bar and footer are based on the Love Running - Essential Project
-- The Responsive Card Hover is based on code by Tuan on CodePen [View Original Code here](https://codepen.io/keubibo/pen/yLXYVOK)
+- The Responsive Card Hover is loosely based on code by Tuan on CodePen [View Original Code here](https://codepen.io/keubibo/pen/yLXYVOK)
 - The Google Maps link is from instructions on the Google Support page [here](https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop)
 
 ### Media
