@@ -213,13 +213,14 @@ h2 {
 /* Footer */
 
 footer {
-    height: 100px;
-    background-color: #2c342b00;
-    color: #c59d6e00;
-    padding-top: 30px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    height: 120px;
+    background-color: #2c342b;
+    color: #c59c6e;
+    margin-top: auto;
+}
+
+footer h3 {
+    padding-top: 10px;
 }
 
 #footer,
@@ -233,7 +234,7 @@ footer {
 
 #socials i {
     font-size: 175%;
-    color: #c59d6e00;
+    color: #c59c6e;
     margin: 5px;
     padding-top: 10px;
 }
@@ -307,8 +308,8 @@ footer {
 #contact-title h2 {
     font-size: 200%;
     text-align: center;
-    margin-top: 50px;
-    padding-bottom: 10px;
+    margin-top: 120px;
+    padding-bottom: 26px;
     clear: both;
 }
 
@@ -316,8 +317,8 @@ footer {
     font-size: 120%;
     text-align: center;
     margin: auto;
-    padding-bottom: 10px;
-    width: 50%;
+    padding-bottom: 20px;
+    width: 80%;
 }
 
 #form-section {
@@ -390,7 +391,7 @@ label {
     text-align: center;
     width: 100px;
     height: 30px;
-    background-color: #2c342b00;
+    background-color: #2c342b;
     color: white;
     margin-top: 50px;
     margin-left: 40%;
@@ -514,18 +515,6 @@ label {
     .times {
         margin-bottom: 50px;
         text-align: left;
-    }
-
-    #contact-title p {
-        width: 80%;
-    }
-
-    #form-section {
-        background-size: cover;
-    }
-
-    .form {
-        left: 0;
     }
 
     #thankyou-text {
