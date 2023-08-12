@@ -25,15 +25,21 @@ h2 {
     float: left;
     font-size: 300%;
     padding-top: 30px;
+    margin-left: 30px;
 }
 
 #nav-bar {
     font-size: 150%;
     padding-top: 50px;
+
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: right;
+    justify-content: right;
+    right: 30px;
 }
 
 #nav-bar li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -75,7 +81,7 @@ h2 {
 
     background-color: #c59d6ecc;
 
-    top: 20%;
+    top: 14%;
     right: 25%;
     position: absolute;
 }
@@ -91,7 +97,8 @@ h2 {
 #company-info h2 {
     font-size: 300%;
     text-align: center;
-    padding: 30px 0 30px;
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 #company-info {
@@ -116,7 +123,7 @@ h2 {
 /* Sizing and positioning of the three cards in 'Why Choose Us' section */
 .card {
     position: relative;
-    max-width: 30%;
+    max-width: 25%;
     height: 350px;
     display: flex;
     align-items: center;
@@ -217,6 +224,7 @@ footer {
     background-color: #2c342b;
     color: #c59c6e;
     margin-top: auto;
+    position: relative;
 }
 
 footer h3 {
@@ -308,7 +316,7 @@ footer h3 {
 #contact-title h2 {
     font-size: 200%;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
     padding-bottom: 26px;
     clear: both;
 }
@@ -323,6 +331,7 @@ footer h3 {
 
 #form-section {
     background: url(../images/contact-image.jpg) no-repeat center center;
+    overflow: hidden;
     background-size: cover;
     height: 900px;
     width: 100%;
@@ -428,41 +437,56 @@ label {
     font-size: 125%;
 }
 
-/* Media Queries for screen max width of 390px */
+/* Media Queries for screen max width of 390px (iPhone 12 Pro/Galaxy Fold) */
 @media screen and (max-width: 390px) {
-    #logo {
-        text-align: center;
+    #nav-bar {
+        font-size: 94%;
+        padding-left: 4%;
     }
 
-    #nav-bar a {
-        font-size: 70%;
+    #image-text {
+        line-height: 50px;
+        top: 50%;
+        left: 5%;
+
     }
 
     #thankyou-text {
-        height: 350px;
-        bottom: 5%;
+        height: 300px;
+        bottom: 0;
         font-size: 120%;
+        line-height: 50px;
     }
 
     .form {
-        height: 900px;
-        max-width: 389px;
-        top: 0;
+        height: 850px;
+        max-width: 95%;
+        top: 2%;
+        left: 2%;
     }
 
     .details {
         width: 90%;
     }
+
+    .consent-button {
+        font-size: 80%;
+    }
 }
 
-/* Media Queries for screen max width of 450px */
+/* Media Queries for screen max width of 450px (Surface Duo) */
 @media screen and (max-width: 450px) {
+
     #image-text {
-        font-size: 150%;
+        font-size: 120%;
         height: 300px;
         bottom: 10%;
         right: 0;
-        left: 10%;
+        left: 13%;
+    }
+
+    #company-info h2 {
+        font-size: 200%;
     }
 
     .wrapper {
@@ -478,10 +502,10 @@ label {
     }
 
     .menu-type {
-        min-width: fit-content;
+        width: 80%;
         margin-top: 20px;
-        margin-left: 0;
-        padding: 0;
+        margin-left: 10%;
+        padding: 5px;
     }
 
     .items {
@@ -497,32 +521,47 @@ label {
     #bakery-menu {
         justify-content: unset;
     }
+
+    .submit {
+        width: 40%;
+        margin-left: 30%;
+    }
 }
 
-/* Media Queries for screen max width of 983px */
+/* Media Queries for screen max width of 983px (iPad/Surface Pro 7) */
 @media screen and (max-width: 983px) {
 
-    #logo,
-    #nav-bar a {
-        width: 100%;
+    #logo {
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
     }
 
-    #image-text {
-        line-height: 50px;
-        top: 30%;
+    #nav-bar {
+        justify-content: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10px;
     }
 
     .times {
         margin-bottom: 50px;
-        text-align: left;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .find-us {
+        font-size: 80%;
     }
 
     #thankyou-text {
         left: 0;
     }
+
+
 }
 
-/* Media Queries for screen max width 1025px */
+/* Media Queries for screen max width 1025px (HP Elitebook 850) */
 @media screen and (max-width: 1025px) {
     .menu-type {
         width: 75%;
