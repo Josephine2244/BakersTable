@@ -81,7 +81,7 @@ h2 {
 
     background-color: #c59d6ecc;
 
-    top: 14%;
+    top: 23%;
     right: 25%;
     position: absolute;
 }
@@ -223,8 +223,13 @@ footer {
     height: 120px;
     background-color: #2c342b;
     color: #c59c6e;
-    margin-top: auto;
-    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer h3 {
@@ -437,7 +442,14 @@ label {
     font-size: 125%;
 }
 
-/* Media Queries for screen max width of 390px (iPhone 12 Pro/Galaxy Fold) */
+/* Media Queries for screen max width of 280px (Galaxy Fold) */
+@media screen and (max-width: 280px) {
+    div#image-text {
+        margin-left: 0%;
+    }
+}
+
+/* Media Queries for screen max width of 390px (iPhone 12 Pro) */
 @media screen and (max-width: 390px) {
     #nav-bar {
         font-size: 94%;
@@ -446,14 +458,14 @@ label {
 
     #image-text {
         line-height: 50px;
-        top: 50%;
-        left: 5%;
-
+        top: 40%;
+        margin-left: 3%;
     }
 
     #thankyou-text {
         height: 300px;
         bottom: 0;
+        left: 0;
         font-size: 120%;
         line-height: 50px;
     }
@@ -491,6 +503,10 @@ label {
 
     .wrapper {
         width: 100% !important;
+    }
+
+    .times {
+        text-align: center;
     }
 
     .form {
@@ -546,19 +562,13 @@ label {
 
     .times {
         margin-bottom: 50px;
-        text-align: center;
+        text-align: left;
         font-size: 80%;
     }
 
     .find-us {
         font-size: 80%;
     }
-
-    #thankyou-text {
-        left: 0;
-    }
-
-
 }
 
 /* Media Queries for screen max width 1025px (HP Elitebook 850) */
@@ -578,6 +588,6 @@ label {
     }
 
     .card {
-        min-width: 270px;
+        min-width: 35%;
     }
 }
