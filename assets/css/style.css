@@ -34,7 +34,6 @@ h2 {
 
     display: flex;
     flex-flow: row-reverse nowrap;
-    align-items: right;
     justify-content: right;
     right: 30px;
 }
@@ -447,7 +446,7 @@ label {
 /* Media Queries for screen max width of 280px (Galaxy Fold) */
 @media screen and (max-width: 280px) {
     div#image-text {
-        margin-left: 0%;
+        left: 12%;
     }
 }
 
@@ -456,12 +455,6 @@ label {
     #nav-bar {
         font-size: 94%;
         padding-left: 4%;
-    }
-
-    #image-text {
-        line-height: 50px;
-        top: 40%;
-        margin-left: 3%;
     }
 
     .card {
@@ -492,15 +485,15 @@ label {
     }
 }
 
-/* Media Queries for screen max width of 450px (Surface Duo) */
-@media screen and (max-width: 450px) {
+/* Media Queries for screen max width of 550px (Surface Duo) */
+@media screen and (max-width: 550px) {
 
     #image-text {
         font-size: 120%;
-        height: 300px;
-        bottom: 10%;
-        right: 0;
-        left: 13%;
+        height: 250px;
+        line-height: 50px;
+        top: 45%;
+        left: 18%;
     }
 
     #company-info h2 {
