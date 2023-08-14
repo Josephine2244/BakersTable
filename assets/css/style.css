@@ -80,9 +80,10 @@ h2 {
     padding: 50px;
 
     background-color: #c59d6ecc;
+    border-radius: 15px;
 
     top: 23%;
-    right: 25%;
+    right: 27%;
     position: absolute;
 }
 
@@ -219,11 +220,12 @@ h2 {
 
 /* Footer */
 
-footer {
+#footer {
     height: 120px;
     background-color: #2c342b;
     color: #c59c6e;
 
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -462,6 +464,10 @@ label {
         margin-left: 3%;
     }
 
+    .card {
+        max-width: 80%;
+    }
+
     #thankyou-text {
         height: 300px;
         bottom: 0;
@@ -503,10 +509,6 @@ label {
 
     .wrapper {
         width: 100% !important;
-    }
-
-    .times {
-        text-align: center;
     }
 
     .form {
@@ -558,6 +560,10 @@ label {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 10px;
+    }
+
+    .card {
+        max-width: 50%;
     }
 
     .times {
