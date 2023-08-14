@@ -1,6 +1,6 @@
 # <h1 align="center">The Bakers Table</h1>
 
-![Responsive Image](https://github.com/Josephine2244/BakersTable/assets/137813807/b389a26e-c077-4938-80e8-9847d2c1b1cc)
+![Responsive Image](https://github.com/Josephine2244/BakersTable/assets/137813807/b17e3fd8-375d-4972-93f4-63116f068074)
 
 The Bakers Table is a wesbite for a local café that offers freshly baked breads, pastries and cakes to enjoy either in store or takeaway. The USP is that the cater to many different dietary requirements including gluten/lactose-free, vegetarian and vegan. The website provides the visitor with the full menus for all products available in store.
 
@@ -158,8 +158,14 @@ The warning is due to the imported Google Fonts.
 ### thankyou.html
 ![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
 
-## Test Cases (user story based with screenshots)
+## Test Cases
 ![Test Cases](https://github.com/Josephine2244/BakersTable/assets/137813807/ff40d15c-e1f8-4521-9045-d7ddca5ed4b4)
+
+### Test Case 05
+![Test Case 5](https://github.com/Josephine2244/BakersTable/assets/137813807/2ab3e674-4070-4902-80fb-96eabb6627ea)
+
+### Test Case 11
+![Test Case 11](https://github.com/Josephine2244/BakersTable/assets/137813807/df437023-bd1e-4661-ae4d-30225ebeb495)
 
 ## Fixed Bugs
 - 'Why Choose Us' section on the homepage was overflowing off the right side of the page.
@@ -169,13 +175,18 @@ The warning is due to the imported Google Fonts.
 ## Supported Screens and Browsers
 
 ### Supported Screens
-
+- Acer nitro desktop (1920 x 1080)
+- Surface Pro 7 (912 x 1368)
+- iPad (768 x 1024)
+- iPhone 12 pro (390 x 844)
+- iPhone SE (375 x 667) 
+- Galaxy fold (280 x 653) 
 
 ### Browsers
 - Google Chrome Version 115.0.5790.171 (Official Build) (64-bit)
 - Microsoft Edge Version 115.0.1901.188 (Official build) (64-bit)
 
-- Chrome Development Tools was used to chekc the resposiveness of all elements throughout the design process.
+- Chrome Development Tools was used to check the resposiveness of all elements throughout the design process.
    
 ## Deployment
 ### via codeanywhere
