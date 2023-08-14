@@ -577,7 +577,7 @@ label {
     }
 }
 
-/* Media Queries for screen max width 1025px (HP Elitebook 850) */
+/* Media Queries for screen max width 1025px (Style the 'why choose us' section into a column to fit the screen) */
 @media screen and (max-width: 1025px) {
     .menu-type {
         width: 75%;
