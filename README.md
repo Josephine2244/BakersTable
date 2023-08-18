@@ -70,9 +70,10 @@ The 'Contact Us' page contains the form users can fill out to contact the bakery
 ![Contact Us](https://github.com/Josephine2244/BakersTable/assets/137813807/75c92561-028d-4115-a487-3a628c0dad20)
 
 ### 8. Thank You Page
-The 'Thank You' page is the page users are redirected to once they have successfully submitted the form. This page has a call to action button which takes users back to the homepage. The background image shows a café table. It shows users what they can expect when they visit the bakery, good coffee and a delicious cake. The lime and mint in the bottom left corner re-enforce the freshness of the products sold by the bakery.
+The 'Thank You' page is the page users are redirected to once they have successfully submitted the form. This page has a call to action button which takes users back to the homepage. The background image shows a café table. It shows users what they can expect when they visit the bakery, good coffee and a delicious cake. The lime and mint in the bottom left corner re-enforce the freshness of the products sold by the bakery. The map is also shown again at the end of this page to remind users of the bakery location.
 
 ![Thank You](https://github.com/Josephine2244/BakersTable/assets/137813807/e63dade4-03f0-468c-907b-9c9fb43e66e2)
+![thankyou page map](https://github.com/Josephine2244/BakersTable/assets/137813807/e9396633-3820-46a9-89b5-7f0f4cd41e32)
 
 ## Future features
 1. Pre-Order Service for customers to have their orders ready to go for them when they arrive.
