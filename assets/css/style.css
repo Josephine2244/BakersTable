@@ -45,6 +45,7 @@ h2 {
 
 #nav-bar a {
     text-decoration: none;
+    text-align: center;
     color: inherit;
 }
 
@@ -203,6 +204,7 @@ h2 {
 
 .find-us p {
     font-size: 150%;
+    text-align: left;
 }
 
 /* Google Map */
@@ -224,13 +226,7 @@ h2 {
     background-color: #2c342b;
     color: #c59c6e;
 
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
 }
 
 footer h3 {
@@ -450,21 +446,19 @@ label {
     }
 }
 
-/* Media Queries for screen max width of 390px (iPhone 12 Pro) */
-@media screen and (max-width: 390px) {
+/* Media Queries for screen max width of 420px (iPhone 12 Pro) */
+@media screen and (max-width: 420px) {
     #nav-bar {
         font-size: 94%;
         padding-left: 4%;
     }
 
     .card {
-        max-width: 80%;
+        min-width: 80%;
     }
 
     #thankyou-text {
         height: 300px;
-        bottom: 0;
-        left: 0;
         font-size: 120%;
         line-height: 50px;
     }
@@ -501,10 +495,6 @@ label {
     }
 
     .wrapper {
-        width: 100% !important;
-    }
-
-    .form {
         width: 100%;
     }
 
@@ -537,6 +527,12 @@ label {
         width: 40%;
         margin-left: 30%;
     }
+
+    #thankyou-text {
+        left: 5%;
+        right: 5%;
+        bottom: 0%;
+    }
 }
 
 /* Media Queries for screen max width of 983px (iPad/Surface Pro 7) */
@@ -553,10 +549,6 @@ label {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 10px;
-    }
-
-    .card {
-        max-width: 50%;
     }
 
     .times {
@@ -587,6 +579,13 @@ label {
     }
 
     .card {
-        min-width: 35%;
+        max-width: 50%;
+    }
+}
+
+/* Media Queries for screen min width 1025px (Style the 'why choose us' section into a column to fit the screen) */
+@media screen and (min-width: 1025px) {
+    .card {
+        max-width: 25%;
     }
 }
