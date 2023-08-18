@@ -225,8 +225,6 @@ h2 {
     height: 120px;
     background-color: #2c342b;
     color: #c59c6e;
-
-
 }
 
 footer h3 {
@@ -448,6 +446,10 @@ label {
 
 /* Media Queries for screen max width of 420px (iPhone 12 Pro) */
 @media screen and (max-width: 420px) {
+    #logo {
+        font-size: 200%;
+    }
+
     #nav-bar {
         font-size: 94%;
         padding-left: 4%;
@@ -531,7 +533,7 @@ label {
     #thankyou-text {
         left: 5%;
         right: 5%;
-        bottom: 0%;
+        bottom: 5%;
     }
 }
 
