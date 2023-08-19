@@ -35,7 +35,7 @@ The Bakers Table is a wesbite for a local café that offers freshly baked breads
 ### 1. Navigation Bar
 The Navigation Bar contains the company logo which acts as an anchor to the homepage, and navigation links to all three pages on the website. It is identical across all pages to ensure ease-of-use and consistency.
 
-![Navigation Bar](https://github.com/Josephine2244/BakersTable/assets/137813807/37fe29be-86fe-4cd7-bdeb-4d5d5377911e)
+![Navigation Bar](https://github.com/Josephine2244/BakersTable/assets/137813807/3d7521b3-caee-4f0f-8785-00c3c8eba1cb)
 
 ### 2. Hero Image with Action Button
 The Main page has an eye-catching hero-image that helps the user understand quickly what the website is for. The image also emphasises the rustic theme of the bakery. It also has a text overlay introducing the user to the website and contains a call to action to view the menu page. This allows quick access to the menu, especially for returning customers or those already aware of the company.
@@ -60,7 +60,7 @@ The footer contains links to all of the social media accounts the bakery has. Th
 ### 6. Menu Page
 The Menu page is split into four menu blocks so users can find the products they are looking for easily. Breads, pastries, cakes and drinks with their prices opposite each product. The backgorund image, again, emphasising the freshness of ingredients used and rustic theme without taking away from the menu elements.
 
-![Menu](https://github.com/Josephine2244/BakersTable/assets/137813807/2aa7873f-07de-4379-aea7-7c523a58eac3)
+![Menu](https://github.com/Josephine2244/BakersTable/assets/137813807/4abb134d-ce24-46f8-a68d-3f5931122e16)
 
 ### 7. Contact Form Page
 The 'Contact Us' page contains the form users can fill out to contact the bakery. The top of the page has a small paragraph to suggest a couple of queries they can submit to the bakery. The background image is eye catching and compliments the background color of the form, fitting in perfectly with the color scheme.
@@ -156,31 +156,109 @@ The warning is due to the imported Google Fonts.
 ![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
 
 ## Test Cases
-| ID | Test Subject | Steps Taken | Outcome Generated | Link |
-|----|--------------|-------------|-------------------|--------------|
-| 01 |Header - Logo|Go to the website homepage and click on the logo in the top left corner. Repeat this test on Menu, Contact Us and Thank You page.|Logo directs user to the homepage when clicked.|[Desktop] [Mobile]
-| 02 |Header - Navbar|Click on each link in the top right corner for Home, Menu and Contact Us. Repeat test on each page.|Links direct user to the corresponding pages.|[Desktop] [Mobile]
-| 03 |Main Page Image and Image Text|On the homepage, check appearance of hero image and image text overlay.|Image fills entire width of page and is clear. Text is legible and positioned properly.|[Desktop] [Mobile]
-| 04 |Action Button|On the homepage, click the ‘See our Menu’ link.|User is redirected to the Menu page.|[Desktop] [Mobile]
-| 05 |Responsive Cards|On the homepage, hover the mouse over the ‘Why Choose Us’ image cards, or tap if on a smaller device.|The cards extend and texts appears describing the company. When moved away, cards return to original size just showing the images.|[Desktop] [Mobile]
-| 06 |Times and Location|On the homepage, go to the section with the opening times and address listed.|Text is legible and positioned appropriately.|[Desktop] [Mobile]
-| 07 |Google Map|On the homepage, scroll down below the opening times and address.|Map fills the width of the screen. It can be zoomed in and out. Link for directions works.|[Desktop] [Mobile]
-| 08 |Footer|Visually check footer on each page and click on each social media link.|Footer is appropriately sized and positioned. Text is legible. Social media links open the corresponding social media platform in a separate tab.|[Desktop] [Mobile]
-| 09 |Menu|On the menu page, visually check the menus and background image.|Menus are spaced and positioned appropriately. Items and process are clear and legible. Background image fills the width of the page.|[Desktop] [Mobile]
-| 10 |Contact Form Input Hover|On the Contact Us page, hover the mouse over the input boxes.|Placeholder text appears to assist user in finding where each piece of information is to be entered.|[Desktop] [Mobile]
-| 11 |Contact Form Input|Click submit before entering any information.|Prompts appear to show user they need to enter their first name. Form is not submitted.|[Desktop] [Mobile]
-| 12 |First Name Input|Enter first name and click ‘submit form’.|User is prompted to enter their last name. Form is not submitted.|[Desktop] [Mobile]
-| 13 |Last Name Input|Enter last name and click ‘submit form’.|User is prompted to enter their emaiL. Form is not submitted.|[Desktop] [Mobile]
-| 14 |Email Input|Enter email and click ‘submit form’.|User is prompted to enter their query as phone number is not a required field. Form is not submitted.|[Desktop] [Mobile]
-| 15 |Phone Number Input|Enter phone number and click ‘submit form’.|User is prompted to enter their query. Form is not submitted.|[Desktop] [Mobile]
-| 16 |Query Input|Enter query and click ‘submit form’.|User is prompted to agree to terms. Form is not submitted.|[Desktop] [Mobile]
-| 17 |Consent Button|Click button to agree to terms and click ‘submit form’.|Form is successfully submitted.|[Desktop] [Mobile]
-| 18 |Submit Button|Click submit button.|User is brought to a confirmation ‘Thank You’ page with a link ‘Back to Homepage’ below the confirmation message.|[Desktop] [Mobile]
-| 19 |Thank You|Check visuals on ‘Thank you’ page and homepage link.|Confirmation message is legible and positioned appropriately. Link brings user back to homepage.|[Desktop] [Mobile]
-| 20 |Thank You Map|Check map at bottom of thank you page visually|Map fills width of screen. Link for direction and controls for zooming are working|[Desktop] [Mobile]
+| ID | Test Subject | Steps Taken | Outcome Generated |
+|----|--------------|-------------|-------------------|
+| 01 |Header - Logo|Go to the website homepage and click on the logo in the top left corner. Repeat this test on Menu, Contact Us and Thank You page.|Logo directs user to the homepage when clicked.|
+| 02 |Header - Navbar|Click on each link in the top right corner for Home, Menu and Contact Us. Repeat test on each page.|Links direct user to the corresponding pages.|
+| 03 |Main Page Image and Image Text|On the homepage, check appearance of hero image and image text overlay.|Image fills entire width of page and is clear. Text is legible and positioned properly.|
+| 04 |Action Button|On the homepage, click the ‘See our Menu’ link.|User is redirected to the Menu page.|
+| 05 |Responsive Cards|On the homepage, hover the mouse over the ‘Why Choose Us’ image cards, or tap if on a smaller device.|The cards extend and texts appears describing the company. When moved away, cards return to original size just showing the images.|
+| 06 |Times and Location|On the homepage, go to the section with the opening times and address listed.|Text is legible and positioned appropriately.|
+| 07 |Google Map|On the homepage, scroll down below the opening times and address.|Map fills the width of the screen. It can be zoomed in and out. Link for directions works.|
+| 08 |Footer|Visually check footer on each page and click on each social media link.|Footer is appropriately sized and positioned. Text is legible. Social media links open the corresponding social media platform in a separate tab.|
+| 09 |Menu|On the menu page, visually check the menus and background image.|Menus are spaced and positioned appropriately. Items and process are clear and legible. Background image fills the width of the page.|
+| 10 |Contact Form Input Hover|On the Contact Us page, hover the mouse over the input boxes.|Placeholder text appears to assist user in finding where each piece of information is to be entered.|
+| 11 |Contact Form Input|Click submit before entering any information.|Prompts appear to show user they need to enter their first name. Form is not submitted.|
+| 12 |First Name Input|Enter first name and click ‘submit form’.|User is prompted to enter their last name. Form is not submitted.|
+| 13 |Last Name Input|Enter last name and click ‘submit form’.|User is prompted to enter their emaiL. Form is not submitted.|
+| 14 |Email Input|Enter email and click ‘submit form’.|User is prompted to enter their query as phone number is not a required field. Form is not submitted.|
+| 15 |Phone Number Input|Enter phone number and click ‘submit form’.|User is prompted to enter their query. Form is not submitted.|
+| 16 |Query Input|Enter query and click ‘submit form’.|User is prompted to agree to terms. Form is not submitted.|
+| 17 |Consent Button|Click button to agree to terms and click ‘submit form’.|Form is successfully submitted.|
+| 18 |Submit Button|Click submit button.|User is brought to a confirmation ‘Thank You’ page with a link ‘Back to Homepage’ below the confirmation message.|
+| 19 |Thank You|Check visuals on ‘Thank you’ page and homepage link.|Confirmation message is legible and positioned appropriately. Link brings user back to homepage.|
+| 20 |Thank You Map|Check map at bottom of thank you page visually|Map fills width of screen. Link for direction and controls for zooming are working|
+
+## Desktop and Mobile Test Case Screenshots
+## 01
+![Test Case 1 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/c98dec00-9584-49ad-8858-e28fa4205d2a)
+![Test Case 1 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/ec658224-6fd6-48b5-a59a-85f15d902bf8)
+
+## 02
+![Test Case 2 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/dbe58d23-1144-484a-99fc-39c878484904)
+![Test Case 2 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/538b2f04-951d-42bf-b44d-84c9ca41dc6e)
+
+## 03
+![Test Case 3 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/e0c13407-4c7f-4150-a6cf-8a4c1ea3469b)
+![Test Case 3 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/37dd049a-a3ca-43aa-babd-367afda7448d)
+
+## 04
+![Test Case 4 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/106b9f3e-1a44-4cdd-b269-956ee201b2d8)
+![Test Case 4 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/dbb513f5-2565-4ea5-9a0d-8a8daae877de)
+
+## 05
+![Test Case 5 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/2ba55ec0-d1d1-4db4-b8f7-a5f8ab360d68)
+![Test Case 5 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/8bc743dc-43a2-4d3a-9fb2-0a2eb9c6b3c2)
+
+## 06
+![Test Case 6 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/de9127fb-bd06-43c4-bd04-c52f0cf24909)
+![Test Case 6 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/0de324d7-bba8-424f-925b-3023008310cb)
+
+## 07
+![Test Case 7 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/9317faff-3ec8-4c02-be0c-f58e9c09163e)
+![Test Case 7 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/f88c230d-9336-456d-92ab-d8ac1690f5eb)
+
+## 08
+![Test Case 8 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/6ea2707c-892f-48cb-9319-612e793ce33c)
+![Test Case 8 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/cfe01df5-2413-406e-853e-966ba608e124)
+
+## 09
+![Test Case 9 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/420aa175-ec28-4f88-8577-7674de63f404)
+![Test Case 9 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/5a8f06e9-7592-40d5-84b9-6ff5f21081d9)
+
+## 10
+![Test Case 10 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/4e77a851-e581-483e-8c0c-1de5127ffa26)
+![Test Case 10 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/25db3c00-3f11-49ed-8cf7-f57bce43ecaf)
+
+## 11
+![Test Case 11 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/ee89b959-eb30-43ab-9078-f63fe9e4523f)
+![Test Case 11 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/32a9fe23-22e6-4a95-b2eb-0e70a35f65ec)
+
+## 12
+![Test Case 12 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/f7667c47-bd36-41fc-bb24-a39c7f447adb)
+![Test Case 12 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/4f1e1ac5-5b4f-46f2-b05c-1bfd0f064729)
+
+## 13
+![Test Case 13 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/e78fc890-a3ec-4c50-aefd-8d93777dfb72)
+![Test Case 13 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/f72195cb-fb7c-480b-9a39-950af43abf74)
+
+## 14
+![Test Case 14 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/db76da59-3d94-454a-9acf-bd8fbc8e2114)
+![Test Case 14 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/c2faea42-939a-4854-bdcc-ac5d2d45f878)
+
+## 15
+![Test Case 15 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/3d2c8521-907c-4d24-841c-c40f7e7bda44)
+![Test Case 15 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/72105f9f-d7d1-48b8-96b3-97a1475f0e4f)
+
+## 16
+![Test Case 16 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/67809206-f8de-4268-b408-a297a121a37a)
+![Test Case 16 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/e7014549-18c0-46b8-9288-44cab15efc5f)
+
+## 17 and 18
+![Test Case 17 and 18 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/e6ec7d7a-5c0e-45c4-adc0-599d23139e61)
+![Test Case 17 and 18 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/6864de31-328d-4925-b227-726a14301a57)
+
+## 19
+![Test Case 19 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/a54fb0c9-4615-45c2-8aa9-2c1f70862f76)
+![Test Case 19 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/bdebad6c-d11c-4a82-94e2-bf5df88092d7)
+
+## 20
+![Test Case 20 Desktop](https://github.com/Josephine2244/BakersTable/assets/137813807/59fe8163-781a-44e5-b5cb-f6200cb8fcd2)
+![Test Case 20 Mobile](https://github.com/Josephine2244/BakersTable/assets/137813807/53c656eb-3d6e-4183-9ec4-fddb9a3c9396)
 
 ## Fixed Bugs
-- 'Why Choose Us' section on the homepage was overflowing off the right side of the page.
+- Why Choose Us section on the homepage was overflowing off the right side of the page.
+- Why Choose Us images looked squashed on smaller screen sizes.
 - Footer was not at the bottom of the page on the 'Thank You page' or 'Contact Us' page.
 - On smaller screen sizes, the contact form was slightly overflowing the page due to width.
   
@@ -236,3 +314,4 @@ The warning is due to the imported Google Fonts.
   - Contact Us Image is from [Unsplash](https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80)
   - Thank You Image is from [Unsplash](https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
   
+A thank you to my mentor Rohit for all his valuable advice and feedback throughout this prjoect.
