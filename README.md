@@ -158,26 +158,26 @@ The warning is due to the imported Google Fonts.
 ## Test Cases
 | ID | Test Subject | Steps Taken | Outcome Generated | Link |
 |----|--------------|-------------|-------------------|--------------|
-| 01 |Header - Logo|Go to the website homepage and click on the logo in the top left corner. Repeat this test on Menu, Contact Us and Thank You page.|Logo directs user to the homepage when clicked.|
-| 02 |Header - Navbar|Click on each link in the top right corner for Home, Menu and Contact Us. Repeat test on each page.|Links direct user to the corresponding pages.|
-| 03 |Main Page Image and Image Text|On the homepage, check appearance of hero image and image text overlay.|Image fills entire width of page and is clear. Text is legible and positioned properly.|
-| 04 |Action Button|On the homepage, click the ‘See our Menu’ link.|User is redirected to the Menu page.|
-| 05 |Responsive Cards|On the homepage, hover the mouse over the ‘Why Choose Us’ image cards, or tap if on a smaller device.|The cards extend and texts appears describing the company. When moved away, cards return to original size just showing the images.|
-| 06 |Times and Location|On the homepage, go to the section with the opening times and address listed.|Text is legible and positioned appropriately.|
-| 07 |Google Map|On the homepage, scroll down below the opening times and address.|Map fills the width of the screen. It can be zoomed in and out. Link for directions works.|
-| 08 |Footer|Visually check footer on each page and click on each social media link.|Footer is appropriately sized and positioned. Text is legible. Social media links open the corresponding social media platform in a separate tab.|
-| 09 |Menu|On the menu page, visually check the menus and background image.|Menus are spaced and positioned appropriately. Items and process are clear and legible. Background image fills the width of the page.|
-| 10 |Contact Form Input Hover|On the Contact Us page, hover the mouse over the input boxes.|Placeholder text appears to assist user in finding where each piece of information is to be entered.|
-| 11 |Contact Form Input|Click submit before entering any information.|Prompts appear to show user they need to enter their first name. Form is not submitted.|
-| 12 |First Name Input|Enter first name and click ‘submit form’.|User is prompted to enter their last name. Form is not submitted.|
-| 13 |Last Name Input|Enter last name and click ‘submit form’.|User is prompted to enter their emaiL. Form is not submitted.|
-| 14 |Email Input|Enter email and click ‘submit form’.|User is prompted to enter their query as phone number is not a required field. Form is not submitted.|
-| 15 |Phone Number Input|Enter phone number and click ‘submit form’.|User is prompted to enter their query. Form is not submitted.|
-| 16 |Query Input|Enter query and click ‘submit form’.|User is prompted to agree to terms. Form is not submitted.|
-| 17 |Consent Button|Click button to agree to terms and click ‘submit form’.|Form is successfully submitted.|
-| 18 |Submit Button|Click submit button.|User is brought to a confirmation ‘Thank You’ page with a link ‘Back to Homepage’ below the confirmation message.|
-| 19 |Thank You|Check visuals on ‘Thank you’ page and homepage link.|Confirmation message is legible and positioned appropriately. Link brings user back to homepage.|
-| 20 |Thank You Map|Check map at bottom of thank you page visually|Map fills width of screen. Link for direction and controls for zooming are working|
+| 01 |Header - Logo|Go to the website homepage and click on the logo in the top left corner. Repeat this test on Menu, Contact Us and Thank You page.|Logo directs user to the homepage when clicked.|[Desktop] [Mobile]
+| 02 |Header - Navbar|Click on each link in the top right corner for Home, Menu and Contact Us. Repeat test on each page.|Links direct user to the corresponding pages.|[Desktop] [Mobile]
+| 03 |Main Page Image and Image Text|On the homepage, check appearance of hero image and image text overlay.|Image fills entire width of page and is clear. Text is legible and positioned properly.|[Desktop] [Mobile]
+| 04 |Action Button|On the homepage, click the ‘See our Menu’ link.|User is redirected to the Menu page.|[Desktop] [Mobile]
+| 05 |Responsive Cards|On the homepage, hover the mouse over the ‘Why Choose Us’ image cards, or tap if on a smaller device.|The cards extend and texts appears describing the company. When moved away, cards return to original size just showing the images.|[Desktop] [Mobile]
+| 06 |Times and Location|On the homepage, go to the section with the opening times and address listed.|Text is legible and positioned appropriately.|[Desktop] [Mobile]
+| 07 |Google Map|On the homepage, scroll down below the opening times and address.|Map fills the width of the screen. It can be zoomed in and out. Link for directions works.|[Desktop] [Mobile]
+| 08 |Footer|Visually check footer on each page and click on each social media link.|Footer is appropriately sized and positioned. Text is legible. Social media links open the corresponding social media platform in a separate tab.|[Desktop] [Mobile]
+| 09 |Menu|On the menu page, visually check the menus and background image.|Menus are spaced and positioned appropriately. Items and process are clear and legible. Background image fills the width of the page.|[Desktop] [Mobile]
+| 10 |Contact Form Input Hover|On the Contact Us page, hover the mouse over the input boxes.|Placeholder text appears to assist user in finding where each piece of information is to be entered.|[Desktop] [Mobile]
+| 11 |Contact Form Input|Click submit before entering any information.|Prompts appear to show user they need to enter their first name. Form is not submitted.|[Desktop] [Mobile]
+| 12 |First Name Input|Enter first name and click ‘submit form’.|User is prompted to enter their last name. Form is not submitted.|[Desktop] [Mobile]
+| 13 |Last Name Input|Enter last name and click ‘submit form’.|User is prompted to enter their emaiL. Form is not submitted.|[Desktop] [Mobile]
+| 14 |Email Input|Enter email and click ‘submit form’.|User is prompted to enter their query as phone number is not a required field. Form is not submitted.|[Desktop] [Mobile]
+| 15 |Phone Number Input|Enter phone number and click ‘submit form’.|User is prompted to enter their query. Form is not submitted.|[Desktop] [Mobile]
+| 16 |Query Input|Enter query and click ‘submit form’.|User is prompted to agree to terms. Form is not submitted.|[Desktop] [Mobile]
+| 17 |Consent Button|Click button to agree to terms and click ‘submit form’.|Form is successfully submitted.|[Desktop] [Mobile]
+| 18 |Submit Button|Click submit button.|User is brought to a confirmation ‘Thank You’ page with a link ‘Back to Homepage’ below the confirmation message.|[Desktop] [Mobile]
+| 19 |Thank You|Check visuals on ‘Thank you’ page and homepage link.|Confirmation message is legible and positioned appropriately. Link brings user back to homepage.|[Desktop] [Mobile]
+| 20 |Thank You Map|Check map at bottom of thank you page visually|Map fills width of screen. Link for direction and controls for zooming are working|[Desktop] [Mobile]
 
 ## Fixed Bugs
 - 'Why Choose Us' section on the homepage was overflowing off the right side of the page.
