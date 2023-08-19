@@ -1,6 +1,6 @@
 # <h1 align="center">The Bakers Table</h1>
 
-![Responsive Image](https://github.com/Josephine2244/BakersTable/assets/137813807/b17e3fd8-375d-4972-93f4-63116f068074)
+![Responsive Image](https://github.com/Josephine2244/BakersTable/assets/137813807/b2906c7d-36b5-426b-a3fd-999d0992d6ab)
 
 The Bakers Table is a wesbite for a local café that offers freshly baked breads, pastries and cakes to enjoy either in store or takeaway. The USP is that the cater to many different dietary requirements including gluten/lactose-free, vegetarian and vegan. The website provides the visitor with the full menus for all products available in store.
 
@@ -17,7 +17,6 @@ The Bakers Table is a wesbite for a local café that offers freshly baked breads
 - [Testing](testing)
 - [Deployment](deployment)
 - [Credits](credits)
-
 
 ## User stories
 ### First Time Visitor Goals
@@ -43,7 +42,6 @@ The Main page has an eye-catching hero-image that helps the user understand quic
 
 ![Main Image](https://github.com/Josephine2244/BakersTable/assets/137813807/4ff08180-f639-4625-b5d1-7a08c0ba1743)
 
-   
 ### 3. About the Company
 The 'Why Choose Us' section of the page explains the company's three main USPs. I have added an interactive element to encourage users to interact with this section and draw their attention to the content. As the user hovers over the images, the information will appear explaining the significance.
 
@@ -105,7 +103,6 @@ I based my color scheme off of a color palette I found on icolorpalette.com. I s
 ### Thank You Page Wireframes
 ![Thank You](https://github.com/Josephine2244/BakersTable/assets/137813807/541ac85b-4ae6-493c-8d6f-4a5e31bcba6c)
 
-
 ## Technology
 ### Languages Used
 - HTML5
@@ -136,7 +133,6 @@ I based my color scheme off of a color palette I found on icolorpalette.com. I s
 - thankyou.html
 ![thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/595845c3-f664-4228-a5c1-90e5a4015a6b)
 
-
 [CSS Validator Used](https://validator.w3.org/)
 
 - style.css results
@@ -160,13 +156,28 @@ The warning is due to the imported Google Fonts.
 ![lighthouse thankyou html](https://github.com/Josephine2244/BakersTable/assets/137813807/faa7c60e-5242-45ba-acf4-b9079c3cc14a)
 
 ## Test Cases
-![Test Cases](https://github.com/Josephine2244/BakersTable/assets/137813807/ff40d15c-e1f8-4521-9045-d7ddca5ed4b4)
-
-### Test Case 05
-![Test Case 5](https://github.com/Josephine2244/BakersTable/assets/137813807/2ab3e674-4070-4902-80fb-96eabb6627ea)
-
-### Test Case 11
-![Test Case 11](https://github.com/Josephine2244/BakersTable/assets/137813807/df437023-bd1e-4661-ae4d-30225ebeb495)
+| ID | Test Subject | Steps Taken | Outcome Generated | Link |
+|----|--------------|-------------|-------------------|--------------|
+| 01 |Header - Logo|Go to the website homepage and click on the logo in the top left corner. Repeat this test on Menu, Contact Us and Thank You page.|Logo directs user to the homepage when clicked.|
+| 02 |Header - Navbar|Click on each link in the top right corner for Home, Menu and Contact Us. Repeat test on each page.|Links direct user to the corresponding pages.|
+| 03 |Main Page Image and Image Text|On the homepage, check appearance of hero image and image text overlay.|Image fills entire width of page and is clear. Text is legible and positioned properly.|
+| 04 |Action Button|On the homepage, click the ‘See our Menu’ link.|User is redirected to the Menu page.|
+| 05 |Responsive Cards|On the homepage, hover the mouse over the ‘Why Choose Us’ image cards, or tap if on a smaller device.|The cards extend and texts appears describing the company. When moved away, cards return to original size just showing the images.|
+| 06 |Times and Location|On the homepage, go to the section with the opening times and address listed.|Text is legible and positioned appropriately.|
+| 07 |Google Map|On the homepage, scroll down below the opening times and address.|Map fills the width of the screen. It can be zoomed in and out. Link for directions works.|
+| 08 |Footer|Visually check footer on each page and click on each social media link.|Footer is appropriately sized and positioned. Text is legible. Social media links open the corresponding social media platform in a separate tab.|
+| 09 |Menu|On the menu page, visually check the menus and background image.|Menus are spaced and positioned appropriately. Items and process are clear and legible. Background image fills the width of the page.|
+| 10 |Contact Form Input Hover|On the Contact Us page, hover the mouse over the input boxes.|Placeholder text appears to assist user in finding where each piece of information is to be entered.|
+| 11 |Contact Form Input|Click submit before entering any information.|Prompts appear to show user they need to enter their first name. Form is not submitted.|
+| 12 |First Name Input|Enter first name and click ‘submit form’.|User is prompted to enter their last name. Form is not submitted.|
+| 13 |Last Name Input|Enter last name and click ‘submit form’.|User is prompted to enter their emaiL. Form is not submitted.|
+| 14 |Email Input|Enter email and click ‘submit form’.|User is prompted to enter their query as phone number is not a required field. Form is not submitted.|
+| 15 |Phone Number Input|Enter phone number and click ‘submit form’.|User is prompted to enter their query. Form is not submitted.|
+| 16 |Query Input|Enter query and click ‘submit form’.|User is prompted to agree to terms. Form is not submitted.|
+| 17 |Consent Button|Click button to agree to terms and click ‘submit form’.|Form is successfully submitted.|
+| 18 |Submit Button|Click submit button.|User is brought to a confirmation ‘Thank You’ page with a link ‘Back to Homepage’ below the confirmation message.|
+| 19 |Thank You|Check visuals on ‘Thank you’ page and homepage link.|Confirmation message is legible and positioned appropriately. Link brings user back to homepage.|
+| 20 |Thank You Map|Check map at bottom of thank you page visually|Map fills width of screen. Link for direction and controls for zooming are working|
 
 ## Fixed Bugs
 - 'Why Choose Us' section on the homepage was overflowing off the right side of the page.
